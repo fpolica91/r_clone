@@ -19,4 +19,8 @@
 
 1. run `typeorm migration migration run`
 
-## [r_clone]()
+# [contributing](
+
+# [contributing.md]()
+
+)
