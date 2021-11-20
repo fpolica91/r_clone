@@ -1,5 +1,22 @@
-# r_clone
+# Reddit Clone
 
-## Redit Clone
+## Development process / contribution rules
 
-### [r_clone]()
+## Installation
+
+1. Run `yarn` to install dependencies
+
+### Run docker container
+
+1. Run `docker-compose up` (`api`) to build and run the container
+
+### Set up your `.env`
+
+1. Copy `.env.example` to `.env`
+2. Make any changes if neccessary
+
+## Run migrations
+
+1. run `typeorm migration migration run`
+
+## [r_clone]()
