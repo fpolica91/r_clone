@@ -21,6 +21,8 @@
 
 # [contributing](
 
-# [contributing.md]()
+1. checkout branch `master`
+2. create a new branch
+3. submit a pull request
 
 )
