@@ -10,6 +10,7 @@ scalar DateTime
 
 type Mutation {
   createPost(text: String!, title: String!): Post!
+  register(options: UserArgs!): User
   updatePost(id: Float!, text: String!, title: String!): Post
 }
 
@@ -25,4 +26,18 @@ type Query {
   findAll: [Post!]!
   findOne(id: Float!): Post
   hello: String!
+}
+
+type User {
+  createdAt: DateTime!
+  email: String!
+  id: Float!
+  updatedAt: DateTime!
+  username: String!
+}
+
+input UserArgs {
+  email: String!
+  password: String!
+  username: String!
 }
