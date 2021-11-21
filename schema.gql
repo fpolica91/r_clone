@@ -10,6 +10,7 @@ scalar DateTime
 
 type Mutation {
   createPost(text: String!, title: String!): Post!
+  updatePost(id: Float!, text: String!, title: String!): Post
 }
 
 type Post {
@@ -22,5 +23,6 @@ type Post {
 
 type Query {
   findAll: [Post!]!
+  findOne(id: Float!): Post
   hello: String!
 }
